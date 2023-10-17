@@ -1,0 +1,43 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>How Many Birds?</title>
+    <link href="lib/jquery-modal/jquery.modal.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="lib/jquery/jquery.min.js"></script>
+ 	<script src="lib/jquery-modal/jquery.modal.min.js"></script>
+    <script src="lib/phaser.js"></script>
+    <script src="js/game15.js"></script>
+</head>
+<body>
+	<div id="gameover" class="modal">
+		<div class="modal_container">
+			<div class="modal_container_center">
+				<h1>GAME OVER</h1>
+				<h2>Score: <span id="score-val"></span></h2>
+				<br>
+				<a id="restartGame" href="" target="_self">Retart</a>
+			</div>
+		</div>
+	</div>
+	<div id="pauseGame" class="modal">
+		<div class="modal_container">
+			<div class="modal_container_center">
+				<h1>GAME PAUSED</h1>				
+				<br>
+				<a id="continueGame" href="#">Continue</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="restartGame" href="" target="_self">Retart</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#continueGame").click(function(){		    
+		    $.modal.close();
+		    mainTimer.paused = false;
+		    if (stepTimer != null)
+		    	stepTimer.paused = false;
+		})
+	</script>
+</body>
+</html>
