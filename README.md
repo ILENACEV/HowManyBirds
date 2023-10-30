@@ -37,4 +37,4 @@ Contributions to enhance the game or add new features are welcome! Please open a
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For inquiries and collaboration, feel free to reach out to me at [ilenacev@icloud.com](mailto:email@example.com) or connect with me on [LinkedIn][(https://www.linkedin.com/in/yourlinkedinprofile/).]
+For inquiries and collaboration, feel free to reach out to me at [ilenacev@icloud.com](mailto:email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/ile-nacev-aa810a1ba/)]
